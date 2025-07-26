@@ -23,7 +23,7 @@ static const darkAppBarTheme = AppBarTheme(
   backgroundColor: Colors.transparent,
   surfaceTintColor: Colors.transparent,
   iconTheme: IconThemeData(color: MyColors.black, size: MySizes.iconMd),
-  actionsIconTheme: IconThemeData(color: MyColors.white,size: MySizes.iconMd),
+  actionsIconTheme: IconThemeData(color: MyColors.white ,size: MySizes.iconMd),
   titleTextStyle: TextStyle(fontSize: 16.0,fontWeight: FontWeight.w600,color: MyColors.white),
 );
   }
