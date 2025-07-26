@@ -1,5 +1,6 @@
 
- import 'package:flutter/material.dart';
+ import 'package:e_commerce/utils/theme/themes.dart';
+import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,12 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        useMaterial3: true,
-      )
-
-
-
+      themeMode: ThemeMode.light,
+      theme: MyThemes.lightTheme,
+      darkTheme:MyThemes.darkTheme,
+      home: Scaffold(),
     );
   }
 }

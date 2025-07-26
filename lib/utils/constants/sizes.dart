@@ -39,15 +39,25 @@ class MySizes{
   //production item dimensions
   static const double productImageRadius=16.0;
 
+  // Input field
+  static const double inputFieldRadius = 12.0;
+  static const double spaceBtwInputFields = 16.0;
 
+  // Card sizes
+  static const double cardRadiusLg = 16.0;
+  static const double cardRadiusMd = 12.0;
+  static const double cardRadiusSm = 10.0;
+  static const double cardRadiusXs = 6.0;
 
+  // Grid view spacing
+  static const double gridViewSpacing = 16.0;
 
+  // Card Sizes
+  static const double homePrimaryHeaderHeight = 320.0; // 320
+  static const double storePrimaryHeaderHeight = 170.0; // 170
+  static const double profilePrimaryHeaderHeight = 170.0; // 170
 
-
-
-
-
-
-
+  static const double brandCardWidth = 170.0; // 170
+  static const double brandCardHeight = 70.0; // 70
 
 }
